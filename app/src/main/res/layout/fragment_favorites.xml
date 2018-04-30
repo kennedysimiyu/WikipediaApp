@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simiyu.kennedy.wikipedia.main.fragments.FavoritesFragment">
+
+    <!-- recycle view to update the list of our favorite views -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favorites_article_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

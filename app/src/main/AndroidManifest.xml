@@ -12,7 +12,7 @@
 
         <!-- register activity with launcher on manifest -->
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".main.activities.MainActivity"
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +22,8 @@
         </activity>
 
         <!-- register article detail activity on manifest -->
-        <activity android:name=".activities.ArticleDetailActivity"></activity>
-        <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".main.activities.ArticleDetailActivity"></activity>
+        <activity android:name=".main.activities.SearchActivity"></activity>
     </application>
 
 </manifest>

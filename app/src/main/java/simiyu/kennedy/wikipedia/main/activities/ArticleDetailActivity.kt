@@ -1,4 +1,4 @@
-package simiyu.kennedy.wikipedia.activities
+package simiyu.kennedy.wikipedia.main.activities
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

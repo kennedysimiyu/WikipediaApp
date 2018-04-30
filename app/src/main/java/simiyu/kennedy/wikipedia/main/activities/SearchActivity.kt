@@ -1,4 +1,4 @@
-package simiyu.kennedy.wikipedia.activities
+package simiyu.kennedy.wikipedia.main.activities
 
 import android.app.SearchManager
 import android.content.Context

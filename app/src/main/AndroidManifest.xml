@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- register activity with launcher on manifest -->
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main">
@@ -16,6 +18,11 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+
+        <!-- register article detail activity on manifest -->
+        <activity android:name=".activities.ArticleDetailActivity">
+
         </activity>
     </application>
 
